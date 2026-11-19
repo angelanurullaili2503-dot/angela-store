@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angela Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f5ff;
+            color: #29213b;
+        }
+
+        header {
+            background: #7546a8;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .container {
+            padding: 25px 16px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px 12px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 3px 12px #00000010;
+        }
+
+        .product button {
+            background: #7546a8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ANGELA STORE</h1>
+        <p>Belanja mudah, aman, dan nyaman!</p>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <h2>Selamat Datang!</h2>
+            <p>Temukan produk favoritmu di Angela Store.</p>
+        </section>
+
+        <h2>Produk Kami</h2>
+
+        <section class="products">
+
+            <div class="product">
+                <h3>Produk 1</h3>
+                <p>Produk digital pilihan.</p>
+                <p>Rp5.000</p>
+                <button onclick="pesan()">Beli Sekarang</button>
+            </div>
+
+            <div class="product">
+                <h3>Produk 2</h3>
+                <p>Produk digital pilihan.</p>
+                <p>Rp10.000</p>
+                <button onclick="pesan()">Beli Sekarang</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Angela Store</p>
+    </footer>
+
+    <script>
+        function pesan() {
+            alert("Terima kasih! Silakan hubungi admin Angela Store.");
+        }
+    </script>
+
+</body>
+  </html>
+  
